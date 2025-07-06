@@ -4,6 +4,13 @@
   padding: 2rem;
   text-align: center;
 }
+/* إخفاء جميع الصور عند تفعيل الكلاس */
+
+.hide-images [class*="hero"],
+.hide-images [class*="background"] {
+  background: none !important;
+  background-image: none !important;
+}
 
 .logo {
   height: 6em;

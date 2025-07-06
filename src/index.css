@@ -13,6 +13,24 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.hide-images .hero-section {
+background: none !important;
+background-image: none !important;
+background-color: #e0e0e0 !important;
+}
+.hide-images .hero-section {
+  background: none !important;
+  background-image: none !important;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  direction: rtl;
+  background-color: #f2f2f2;
+}
+
+
 a {
   font-weight: 500;
   color: #646cff;
@@ -21,14 +39,35 @@ a {
 a:hover {
   color: #535bf2;
 }
+.hide-images [class*="hero"],
+.hide-images [class*="background"] {
+  background: none !important;
+  background-image: none !important;
+}
 
 body {
   margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+  padding: 0;
+  direction: rtl;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f2f2f2;
 }
+/* index.css */
+body {
+  font-family: 'Cairo', sans-serif; /* الخط الافتراضي */
+}
+
+/* عند تغيير الخط */
+.font-cairo {
+  font-family: 'Cairo', sans-serif;
+}
+.font-amiri {
+  font-family: 'Amiri', serif;
+}
+.font-tajawal {
+  font-family: 'Tajawal', sans-serif;
+}
+
 
 h1 {
   font-size: 3.2em;
